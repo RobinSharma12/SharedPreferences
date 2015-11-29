@@ -35,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("User Data", Context.MODE_PRIVATE);
         String username = sharedPreferences.getString("UserName", "");
         String password = sharedPreferences.getString("Password", "");
-        savedData.setText(username + "  " + password);
+        savedData.setText(username + "    " + password);
     }
 
 }
